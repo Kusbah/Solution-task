@@ -1,13 +1,29 @@
 import React, { useState } from 'react';
+
 import './HapticPage.css';
 import logo from '../assets/Animationlogo.gif';
 import hapticLogo from '../assets/Hapticlogo.gif';
 import pic1 from '../assets/pic.avif';
 import pic2 from '../assets/pic2.avif';
 import pic3 from '../assets/pic3.avif';
-import logo1 from '../assets/logo.png'
+import logo1 from '../assets/logo.png';
 import logo2 from '../assets/logo1.png'
-import logo3 from '../assets/logo2.png'
+import logo3 from '../assets/logo2.png';
+import video1 from '../assets/video1.mp4';
+import video2 from '../assets/vidoe2.mp4';
+import companylogo1 from '../assets/companylogo1.svg';
+import companylogo2 from '../assets/companylogo2.svg';
+import companylogo3 from '../assets/companylogo3.svg';
+import companylogo4 from '../assets/companylogo4.svg';
+import companylogo5 from '../assets/companylogo5.svg';
+import companylogo6 from '../assets/companylogo6.svg';
+import companylogo7 from '../assets/companylogo7.svg';
+import companylogo8 from '../assets/companylogo8.svg';
+import companylogo9 from '../assets/companylogo9.svg';
+import companylogo10 from '../assets/companylogo10.svg';
+
+
+import ProjectShowcase from './ProjectShowcase';
 
 const HapticPage = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -109,6 +125,59 @@ const HapticPage = () => {
     </h2>
   </div>
 </section>
+{/*video */}
+<section className="video-testimonials-section">
+  <div className="video-row">
+    <div className="video-block">
+      <video src={video1} autoPlay loop muted playsInline />
+      <div className="testimonial-meta">
+        <img src={logo1} alt="Powerups logo" className="testimonial-logo" />
+        <div>
+          <div className="testimonial-name">Danny Quick</div>
+          <div className="testimonial-role">Founder, Powerups</div>
+        </div>
+      </div>
+    </div>
+
+    <div className="video-block">
+      <video src={video2} autoPlay loop muted playsInline />
+      <div className="testimonial-meta">
+        <img src={logo2} alt="Apollo logo" className="testimonial-logo" />
+        <div>
+          <div className="testimonial-name">Adam McIntee</div>
+          <div className="testimonial-role">Co-Founder, Apollo</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section className="logo-bar-section">
+  <div className="logo-bar-container">
+    <img src={companylogo1} alt="Logo 1" />
+    <img src={companylogo2} alt="Logo 1" />
+    <img src={companylogo3} alt="Logo 1" />
+    <img src={companylogo4} alt="Logo 1" />
+    <img src={companylogo5} alt="Logo 1" />
+    <img src={companylogo6} alt="Logo 1" />
+    <img src={companylogo7} alt="Logo 1" />
+    <img src={companylogo8} alt="Logo 1" />
+    <img src={companylogo9} alt="Logo 1" />
+    <img src={companylogo10} alt="Logo 1" />
+    <img src={companylogo1} alt="Logo 1" />
+    <img src={companylogo2} alt="Logo 1" />
+    <img src={companylogo3} alt="Logo 1" />
+    <img src={companylogo4} alt="Logo 1" />
+    <img src={companylogo5} alt="Logo 1" />
+    <img src={companylogo6} alt="Logo 1" />
+    <img src={companylogo7} alt="Logo 1" />
+    <img src={companylogo8} alt="Logo 1" />
+    <img src={companylogo9} alt="Logo 1" />
+    <img src={companylogo10} alt="Logo 1" />
+  </div>
+</section>
+<ProjectShowcase />
+
+
 
 
     </>
