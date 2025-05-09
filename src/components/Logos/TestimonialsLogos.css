@@ -1,0 +1,41 @@
+
+.logo-bar-section {
+    width: 100%;
+    overflow-x: auto;
+    background: white;
+    padding: 24px 0;
+    white-space: nowrap;
+    margin-top: 370px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.logo-bar-section::-webkit-scrollbar {
+    display: none;
+}
+.logo-bar-container {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.logo-bar-container img {
+    height: 40px;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.logo-bar-container img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+@keyframes scrollRightLoop {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,46 @@
+.cards-section {
+    width: 100vw;
+    background: #fff;
+}
+
+.cards-row {
+    display: flex;
+    align-items: stretch;
+}
+
+.image-wrapper {
+    flex: 1;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    display: block;
+    object-fit: cover;
+
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    margin-bottom: 100px;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.info-text {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #333;
+}
+
+.info-text p {
+    margin: 0;
+    color: #888;
+}

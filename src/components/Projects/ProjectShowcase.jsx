@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import momentifyImg from '../assets/momentify.png'; // use actual paths to your image files
-import sparkImg from '../assets/spark.png';
-import googleImg from '../assets/google.png';
-import harvardImg from '../assets/harvard.png';
-import neonImg from '../assets/google.png';
-import norbyVideo from '../assets/video1.mp4'; // make sure this video exists
+import momentifyImg from '../../assets/momentify.png'; // use actual paths to your image files
+import sparkImg from '../../assets/spark.png';
+import googleImg from '../../assets/google.png';
+import harvardImg from '../../assets/harvard.png';
+import neonImg from '../../assets/google.png';
+import norbyVideo from '../../assets/video1.mp4'; // make sure this video exists
+import './ProjectShowcase.css';
 
 const projects = [
   { name: 'Momentify', type: 'img', src: momentifyImg },
