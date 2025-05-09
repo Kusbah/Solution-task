@@ -1,0 +1,48 @@
+.careers-section {
+    background-color: #2b140b;
+    color: #ff4713;
+    padding: 100px 40px;
+    font-family: 'Georgia', serif;
+}
+
+.careers-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ff4713;
+}
+
+.careers-heading {
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 60px;
+}
+
+.role-card {
+    padding-top: 60px;
+}
+
+.role-top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.role-title {
+    font-size: 36px;
+    color: #351c11;
+}
+
+.role-tags {
+    display: flex;
+    gap: 20px;
+}
+
+.tag {
+    font-size: 16px;
+    color: #ff4713;
+}
+.role-title:hover {
+    color: #ff5722; 
+}
