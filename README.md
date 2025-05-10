@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This is a clean, responsive frontend project built using **React** and **Tailwind CSS**. It replicates a designer portfolio-style layout and showcases a collection of modern UI cards with project thumbnails. The layout is mobile-friendly and ideal for creative showcases or company profile demos.
+This project was developed as part of an **internship at Solution Company**. It is a clean, responsive frontend built using **React** and **Tailwind CSS**. The layout replicates a designer portfolio-style interface and showcases a modern UI card gallery with project thumbnails. It's ideal for creative showcases or company profile demos.
 
 > ✅ Ideal for frontend internship challenges, UI showcases, or building out a visual design portfolio.
 
