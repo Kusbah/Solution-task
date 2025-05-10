@@ -36,16 +36,16 @@ This is a clean, responsive frontend project built using **React** and **Tailwin
 ## 🖼️ Screenshots
 
 ### 🎯 Designer Portfolio Section
-![Screenshot 1](./screenshots/49bcd1b3-f63c-439f-b761-7667a8f267b2.png)
+![Screenshot 1](./screenshots/home.png)
 
 ### 🧡 Haptic Visual Hero
-![Screenshot 2](./screenshots/6f5ba2b7-6f68-4e29-ac24-e804b6ecdfd6.png)
+![Screenshot 2](./screenshots/hero.png)
 
 ### 🎓 Harvard & Spark Section
-![Screenshot 3](./screenshots/c071bdc7-8443-43d2-afbf-5b318dd4dbc3.png)
+![Screenshot 3](./screenshots/harvard.png)
 
 ### 🎧 Why Haptic (Testimonial Area)
-![Screenshot 4](./screenshots/b3c735a7-1ce1-4858-b348-3ab85275c184.png)
+![Screenshot 4](./screenshots/testimonial.png)
 
 ---
 
