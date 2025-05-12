@@ -1,0 +1,63 @@
+.hiring-card {
+    display: flex;
+    align-items: center;
+    padding: 20px 24px;
+    background-color: #f9fafb;
+    /* light gray */
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    max-width: 480px;
+    min-height: 100px;
+    border: 1px solid #e5e7eb;
+}
+
+.hiring-card:hover {
+    background-color: #000;
+    color: white;
+}
+
+.hiring-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.hiring-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    flex-grow: 1;
+}
+
+.hiring-card:hover .hiring-title,
+.hiring-card:hover .hiring-role {
+    color: white;
+}
+
+.hiring-title {
+    font-size: 15px;
+    color: #9ca3af;
+    /* gray-400 */
+}
+
+.hiring-role {
+    font-size: 18px;
+    font-weight: bold;
+    color: #374151;
+    /* gray-800 */
+}
+
+.hiring-plus {
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: 5px;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.hiring-card:hover .hiring-plus {
+    color: white;
+}

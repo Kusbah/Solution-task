@@ -1,0 +1,141 @@
+.job-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.job-title-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.job-close {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    margin-top: 6px;
+    line-height: 1;
+}
+
+.job-modal {
+    background: white;
+    width: 600px;
+    height: 100%;
+    padding: 30px;
+    position: relative;
+    transform: translateX(100%);
+    animation: slideIn 0.4s ease forwards;
+    overflow-y: auto;
+}
+
+.job-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 26px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.job-description {
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.job-tags {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.job-tags span {
+    background: #f3f4f6;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 14px;
+}
+
+.apply-button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Animation Keyframes */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        background: rgba(0, 0, 0, 0);
+    }
+
+    to {
+        background: rgba(0, 0, 0, 0.6);
+    }
+}
+
+.job-artwork {
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+    object-fit: cover;
+}
+
+.job-section {
+    margin-top: 40px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.section-intro {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.section-sublist {
+    list-style: disc;
+    padding-left: 20px;
+    color: #666;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.section-sublist li {
+    margin-bottom: 10px;
+}

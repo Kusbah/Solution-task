@@ -1,6 +1,5 @@
 .careers-section {
     background-color: #2b140b;
-    color: #ff4713;
     padding: 100px 40px;
     font-family: 'Georgia', serif;
 }
@@ -32,6 +31,7 @@
 .role-title {
     font-size: 36px;
     color: #351c11;
+    cursor: pointer;
 }
 
 .role-tags {
@@ -43,6 +43,7 @@
     font-size: 16px;
     color: #ff4713;
 }
+
 .role-title:hover {
-    color: #ff5722; 
+    color: #ff5722;
 }

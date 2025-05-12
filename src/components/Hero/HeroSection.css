@@ -19,22 +19,30 @@
 .menu-items {
     display: flex;
     gap: 12px;
+    position: fixed;
+    z-index: 500;
+    top: 30px;
+    right: 90px;
 }
+
 .menu-button {
-    width: 44px;
-    height: 44px;
-    background: #eee;
+    position: fixed;
+    /* fixed to screen */
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 48px;
+    height: 48px;
+    background-color: #f3f4f6;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    position: relative;
-    /* Needed for bar absolute positioning */
+    justify-content: center;
     cursor: pointer;
-    transition: background 0.2s ease;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-    z-index: 101;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
 }
+
 
 .menu-button .bar {
     position: absolute;
@@ -71,6 +79,7 @@
     font-size: 14px;
     transition: background 0.2s ease;
 }
+
 .nav-pill:hover {
     background: #333;
 }
@@ -125,11 +134,13 @@
     background-color: #000;
     border-radius: 3px;
 }
+
 .hiring-title {
     font-size: 12px;
     color: #999;
     transition: color 0.3s ease;
 }
+
 .hiring-info {
     display: flex;
     flex-direction: column;
@@ -153,6 +164,7 @@
     color: #000;
     transition: color 0.3s ease;
 }
+
 .hiring-plus {
     background: #f2f2f2;
     color: #000;
@@ -167,6 +179,7 @@
     cursor: pointer;
     transition: background 0.3s ease, color 0.3s ease;
 }
+
 .hiring-card:hover {
     background: #000;
 }
@@ -192,6 +205,7 @@
     background: #fff;
     color: #000;
 }
+
 .inline-logo {
     display: inline-block;
     width: 60px;
