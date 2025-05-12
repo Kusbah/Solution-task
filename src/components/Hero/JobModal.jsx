@@ -1,6 +1,6 @@
 import React from 'react';
 import './JobModal.css';
-import artwork from '../../assets/video3.mp4'; // Adjust to your actual file name
+import artwork from '../../assets/video4.mp4'; // Adjust to your actual file name
 
 const JobModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
